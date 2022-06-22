@@ -1,0 +1,51 @@
+.principal-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 20px 20px 20px;
+}
+
+.search-container-image {
+  width: 90%;
+  border-radius: 15px;
+  box-shadow: -1px -2px 55px -12px rgb(15, 239, 45);
+}
+
+@media (min-width: 970px) {
+  .search-container-image {
+    width: 50%;
+  }
+}
+
+.search-form-container {
+  margin-top: 30px;
+  display: flex;
+  width: 70%;
+}
+
+@media (min-width: 970px) {
+  .search-form-container {
+    width: 40%;
+  }
+}
+
+.search-form-container input {
+  width: 90%;
+  font-size: 18px;
+  color: #fff;
+  border: 1px solid #13ba0d;
+  background-color: rgba(200, 191, 191, 0.184);
+  padding: 8px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.search-form-container button {
+  width: 10%;
+  background-color: rgba(0, 0, 0, 0.569);
+  font-size: 16px;
+  border: 1px solid #13ba0d;
+  color: #13ba0d;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}

@@ -1,0 +1,111 @@
+.character-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 5px 50px 5px;
+  background-color: rgba(0, 0, 0, 0.937);
+}
+
+@media (min-width: 970px) {
+  .character-details-container {
+    flex-direction: row;
+    padding: 100px 50px;
+  }
+}
+
+.character-image {
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px #3ce50d;
+}
+
+@media (min-width: 970px) {
+  .character-image {
+    width: 70%;
+    margin: 0 20px;
+    order: 3;
+  }
+}
+
+.character-name {
+  font-family: "Gloria Hallelujah", cursive;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+@media (min-width: 970px) {
+  .character-name {
+    font-size: 80px;
+  }
+}
+
+.character-detail-description-principal {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+}
+
+.character-detail-description {
+  width: 100%;
+  background-color: rgba(188, 180, 180, 0.122);
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+  order: 1;
+  font-size: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.453);
+  color: #fff;
+}
+
+@media (min-width: 970px) {
+  .character-detail-description {
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+  }
+}
+
+.character-detail-description span {
+  font-weight: normal;
+}
+
+.character-gender {
+  display: flex;
+  justify-content: space-between;
+}
+
+.character-origin {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+@media (min-width: 970px) {
+  .character-origin {
+    margin: 20px 0;
+  }
+}
+
+.character-location {
+  display: flex;
+  justify-content: space-between;
+}
+
+.character-specie {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+@media (min-width: 970px) {
+  .character-specie {
+    margin: 20px 0;
+  }
+}
+
+.character-status {
+  display: flex;
+  justify-content: space-between;
+}
